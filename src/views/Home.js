@@ -48,12 +48,6 @@ const Home = ({navigation}) => {
             <Text style={{color: '#32CD32', fontSize: 20, fontWeight: 'bold'}}>
               {data.item.name}
             </Text>
-            <Text style={{color: '#32CD32', fontSize: 20, fontWeight: 'bold'}}>
-              {data.item.episode}
-            </Text>
-            <Text style={{color: '#32CD32', fontSize: 20, fontWeight: 'bold'}}>
-              {data.item.air_date}
-            </Text>
           </View>
 
           <IconFA name="angle-right" size={44} color={'#FFF700'} />

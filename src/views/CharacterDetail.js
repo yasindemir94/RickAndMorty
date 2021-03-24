@@ -5,7 +5,7 @@ const CharacterDetail = ({navigation, route}) => {
   const details = route.params;
 
   return (
-    <View style={{flex: 1, alignItems: 'center', margin: 20}}>
+    <View style={{flex: 1, alignItems: 'center', padding: 20,backgroundColor:'#fff'}}>
       <Image source={{uri: details.image}} style={{width: 300, height: 300}} />
       <Text
         style={{

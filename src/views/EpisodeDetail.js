@@ -51,10 +51,8 @@ const EpisodeDetail = ({navigation, route}) => {
             <View
               style={{
                 width: '90%',
-                alignItems: 'flex-start',
+                alignItems: 'center',
                 justifyContent: 'center',
-                borderWidth: 3,
-                borderColor: '#ABD4EA',
                 borderRadius: 20,
                 paddingHorizontal: 15,
                 margin: 10,
