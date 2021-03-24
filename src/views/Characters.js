@@ -43,7 +43,7 @@ const Characters = ({navigation, route}) => {
             padding: 15,
             alignItems: 'center',
             justifyContent: 'center',
-            borderWidth: 2,
+            borderWidth: 3,
             borderColor: '#ABD4EA',
             borderRadius: 20,
           }}>

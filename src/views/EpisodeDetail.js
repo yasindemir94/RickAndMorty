@@ -45,13 +45,36 @@ const EpisodeDetail = ({navigation, route}) => {
         }}>
         {isData ? (
           <View style={{flex: 1, width: '100%', alignItems: 'center'}}>
-            <Text style={{fontSize: 24, fontWeight: 'bold', color: '#ABD4EA'}}>
-              {data.name}
+            <Text style={{fontSize: 28, fontWeight: 'bold', color: '#ABD4EA'}}>
+              Episode Details
             </Text>
+            <View
+              style={{
+                width: '90%',
+                alignItems: 'flex-start',
+                justifyContent: 'center',
+                borderWidth: 3,
+                borderColor: '#ABD4EA',
+                borderRadius: 20,
+                paddingHorizontal: 15,
+                margin: 10,
+              }}>
+              <Text
+                style={{color: '#32CD32', fontSize: 20, fontWeight: 'bold'}}>
+                {data.name}
+              </Text>
+              <Text
+                style={{color: '#32CD32', fontSize: 20, fontWeight: 'bold'}}>
+                {data.episode}
+              </Text>
+              <Text
+                style={{color: '#32CD32', fontSize: 20, fontWeight: 'bold'}}>
+                {data.air_date}
+              </Text>
+            </View>
             <TouchableOpacity
               onPress={() => navigation.navigate('Characters', characters)}
               style={{
-                height: '10%',
                 width: '90%',
                 alignItems: 'center',
                 justifyContent: 'space-between',
@@ -59,8 +82,8 @@ const EpisodeDetail = ({navigation, route}) => {
                 borderColor: '#ABD4EA',
                 borderRadius: 20,
                 flexDirection: 'row',
-                padding: 10,
                 paddingHorizontal: 15,
+                margin: 10,
               }}>
               <Text
                 style={{color: '#32CD32', fontSize: 20, fontWeight: 'bold'}}>
